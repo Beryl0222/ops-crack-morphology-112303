@@ -269,6 +269,25 @@
       ]
     }
   ],
+  "alternate_conflict": {
+    "id": "d",
+    "rev": 1,
+    "layer": 0,
+    "origin": [
+      3,
+      2
+    ],
+    "lower": [
+      [
+        0.07
+      ]
+    ],
+    "upper": [
+      [
+        0.18
+      ]
+    ]
+  },
   "probe": [
     [
       0,

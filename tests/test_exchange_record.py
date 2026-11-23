@@ -13,3 +13,4 @@ class ExchangeRecordTests(unittest.TestCase):
         self.assertTrue(record["windows"][1]["id"] == record["windows"][2]["id"] and record["windows"][1]["upper"][0][0] < record["windows"][2]["lower"][0][0])
         self.assertTrue(record["layers"][0]["footprint"] != record["layers"][1]["footprint"] and len(record["vertical_offsets"]) > 1)
         self.assertTrue(record["windows"][0]["upper"][1][2] > record["windows"][0]["lower"][1][2])
+        self.assertTrue(record["alternate_conflict"]["upper"][0][0] < record["windows"][0]["lower"][2][2])

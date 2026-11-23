@@ -7,7 +7,7 @@ import numpy as np
 
 
 SAMPLE = Path(__file__).resolve().parent / "data" / "record.json"
-FIELDS = ('shape', 'ranges', 'outside', 'layers', 'vertical_offsets', 'faces', 'windows', 'probe', 'scale')
+FIELDS = ('shape', 'ranges', 'outside', 'layers', 'vertical_offsets', 'faces', 'windows', 'alternate_conflict', 'probe', 'scale')
 
 
 def load_record(path=SAMPLE):
